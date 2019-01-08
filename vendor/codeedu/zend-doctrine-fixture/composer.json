@@ -1,0 +1,33 @@
+{
+    "name": "codeedu/zend-doctrine-fixture",
+    "description": "Zend Library that provides Doctrine Data-Fixture functionality",
+    "type": "library",
+    "license": "MIT",
+    "keywords":[
+        "doctrine",
+        "fixture",
+        "zf3",
+        "zf2"
+    ],
+    "authors": [
+        {
+            "name": "Luiz",
+            "email": "argentinaluiz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^5.5 || ^7.0",
+        "codeedu/zendexpr-doctrine-fixture": "0.0.1",
+        "zendframework/zend-modulemanager": "^2.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeEdu\\DoctrineFixture\\": "src/"
+        }
+    }
+}
